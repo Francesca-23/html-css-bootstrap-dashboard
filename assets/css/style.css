@@ -41,9 +41,35 @@ aside a{
 main{
     width: calc(100% - 4rem);
     height: calc(100% - 4.5rem);
-    background-color: blue;
     overflow: auto;
 }
+
+/* Section-top */
+
+.section-top{
+    background-color: #1b72e8;
+}
+
+.section-top .badge{
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+    line-height: 15px;
+}
+
+.section-top .fa-angles-right{
+    font-size: 12px;
+}
+
+/* Offcanvas */
+
+form input{
+    padding: 6px 0;
+}
+
+input::placeholder{
+    color: black !important;
+}
+
 
 
 
