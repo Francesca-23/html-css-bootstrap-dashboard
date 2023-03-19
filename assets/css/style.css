@@ -70,6 +70,25 @@ input::placeholder{
     color: black !important;
 }
 
+/* Section-bottom */
+
+.first-table th{
+    text-align: center;
+}
+
+.first-table td{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item{
+    border-right: none;
+    border-left: none;
+}
+
 
 
 
@@ -86,5 +105,8 @@ input::placeholder{
         width: calc(100% - 8rem);
         height: calc(100% - 4.5rem);
     }
-    
+
+    .offcanvas-50{
+        width: 50% !important;
+    }
 }
