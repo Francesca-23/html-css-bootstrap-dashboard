@@ -36,12 +36,17 @@ aside a{
     color: white;
 }
 
+aside .single-item:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 /* Main */
 
 main{
     width: calc(100% - 4rem);
     height: calc(100% - 4.5rem);
     overflow: auto;
+    background-color: #f8f9fa;
 }
 
 /* Section-top */
@@ -80,16 +85,10 @@ input::placeholder{
     text-align: center;
 }
 
-tr:hover{
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 .accordion-item{
     border-right: none;
     border-left: none;
 }
-
-
 
 
 /* Media Query */
